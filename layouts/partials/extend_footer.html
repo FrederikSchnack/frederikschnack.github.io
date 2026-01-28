@@ -1,0 +1,2 @@
+{{ $navMenu := resources.Get "js/extended/menu_trigger.js" | js.Build "menu_trigger.js" | minify | fingerprint }}
+<script language="javascript" type="text/javascript" src="{{ $navMenu.Permalink }}"></script>

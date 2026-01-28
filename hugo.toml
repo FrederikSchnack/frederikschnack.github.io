@@ -1,0 +1,80 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+
+title = 'Frederik Schnack'
+theme = "PaperMod"
+
+copyright = "© 2026 [Frederik Schnack](https://github.com/FrederikSchnack)"
+enableRobotsTXT = true
+
+[[menu.main]]
+    name = 'Research'
+    url = 'research'
+    weight = 10
+
+
+[[menu.main]]
+    name = 'Personal Projects'
+    url = 'projects'
+    weight = 100
+
+[params]
+    title = 'Frederik'
+
+[params.profileMode]
+    enabled = true
+    title = " "
+    imageUrl = "/images/profile.JPEG"
+    imageTitle = "ProfileMode image"
+    imageWidth = 260
+    imageHeight = 260 
+    subtitle = """ \
+    I am currently a researcher at the [Max-Planck-Institut für Plasmaphysik](https://www.ipp.mpg.de/) in Garching,  \
+    working at the interface of numerical analysis and computational physics, \
+    where I investigate and implement structure-preserving numerical methods for various physical applications. 
+    This is also where I obtained my [doctoral degree](https://mediatum.ub.tum.de/?id=1776749) in mathematics joint with the [TUM School of Computation, Information and Technology](https://www.cit.tum.de/cit/startseite/). \\
+    Outside of research, I am an open-source enthusiast and an avid climber.
+    """
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+
+[[params.socialIcons]]
+name = "email"
+title = "Email"
+url = "mailto:frederik.schnack@ipp.mpg.de"
+
+[[params.socialIcons]]
+name = "github"
+title = "Github"
+url = "https://github.com/FrederikSchnack"
+
+[[params.socialIcons]]
+name = "googlescholar"
+title = "Google scholar"
+url = "https://scholar.google.com/citations?user=x5HCxEUAAAAJ"
+
+[[params.socialIcons]]
+name = "linkedin"
+title = "Linked In"
+url = ""
+
+# [[params.socialIcons]]
+# name = "instagram"
+# title = "Instagram"
+# url = "https://www.instagram.com/frederikschnack/"
+
+[[params.socialIcons]]
+name = "8a"
+title = "8a"
+url = "https://www.8a.nu/user/frederik-schnack/bouldering"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
