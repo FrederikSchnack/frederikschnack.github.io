@@ -24,10 +24,10 @@ enableRobotsTXT = true
 [params.profileMode]
     enabled = true
     title = " "
-    imageUrl = "/images/profile.JPEG"
+    imageUrl = "images/profile.JPEG"
     imageTitle = "ProfileMode image"
-    imageWidth = 260
-    imageHeight = 260 
+    imageWidth = 1428
+    imageHeight = 1428 
     subtitle = """ \
     I am currently a researcher at the [Max-Planck-Institut für Plasmaphysik](https://www.ipp.mpg.de/) in Garching,  \
     working at the interface of numerical analysis and computational physics, \
@@ -64,11 +64,6 @@ url = "https://scholar.google.com/citations?user=x5HCxEUAAAAJ"
 name = "linkedin"
 title = "Linked In"
 url = ""
-
-# [[params.socialIcons]]
-# name = "instagram"
-# title = "Instagram"
-# url = "https://www.instagram.com/frederikschnack/"
 
 [[params.socialIcons]]
 name = "8a"

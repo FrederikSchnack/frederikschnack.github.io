@@ -2,6 +2,12 @@ img[alt="PSYDAC logo"] {
     width: 300px; 
 }
 
+.profile img {
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+}
+
 .subtitle a {
     color: hotpink;
     font-weight: bold;
